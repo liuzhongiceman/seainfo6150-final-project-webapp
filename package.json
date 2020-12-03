@@ -3,7 +3,6 @@
   "homepage": "https://liuzhongiceman.github.io/seainfo6150-final-project-webapp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://validator.w3.org/",
   "dependencies": {
     "http-proxy-middleware": "^1.0.6",
     "react": "^16.8.6",
