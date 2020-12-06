@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AboutUs component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="aboutus"
+    >
+      <div
+        class="aboutusrow1"
+      >
+        <div
+          class="row1text"
+        >
+          <div
+            class="row1title"
+          >
+            Thoughtful design
+          </div>
+          <div
+            class="row1subtitle"
+          >
+            Every Airbnb Plus home is one-of-a-kind, thoughtfully designed, and equipped with a standard set of amenities—whether you’re in a private room or have the entire place to yourself.
+          </div>
+        </div>
+        <div
+          class="row1images"
+        >
+          <img
+            alt="room"
+            class="row1image0"
+            src="https://a0.muscache.com/4ea/air/v2/pictures/79197f72-a1e4-4ea2-9b3a-92745694722c.jpg?t=n:ope"
+          />
+          <img
+            alt="room"
+            class="row1image"
+            src="https://a0.muscache.com/4ea/air/v2/pictures/185cebca-d168-4740-bc6e-30eeb2dfcc0b.jpg?t=n:ope"
+          />
+          <img
+            alt="room"
+            class="row1image0"
+            src="https://a0.muscache.com/4ea/air/v2/pictures/1282f009-f405-4cc9-b280-7c39ff671f7a.jpg?t=n:ope"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

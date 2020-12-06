@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the HowItWorks component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="howitworks"
+    >
+      <div
+        class="row1"
+      >
+        <div
+          class="textArea"
+        >
+          <div
+            class="howitworksh1"
+          >
+            Get to know Unique Stays
+          </div>
+          <div
+            class="row1Subtitle"
+          >
+            Welcome to the Unique Stays community. Wherever you go, we have a place for you.
+          </div>
+        </div>
+      </div>
+      <div
+        class="howitworksrow2"
+      >
+        <div
+          class="howitworksh2"
+        >
+          Simple steps to get started
+        </div>
+      </div>
+      <div
+        class="howitworksrow3"
+      >
+        <div
+          class="column"
+        >
+          <img
+            alt="steps"
+            class="howitworksrow3img"
+            src="https://a0.muscache.com/pictures/1effbe54-be33-4f17-a85f-deac9deaff23.jpg"
+          />
+          <h3>
+            Filter down to your perfect fit
+          </h3>
+          <p>
+            Personalize your search with filters—like price range or a pool—to get exactly what you want.
+          </p>
+        </div>
+        <div
+          class="column"
+        >
+          <img
+            alt="steps"
+            class="howitworksrow3img"
+            src="https://a0.muscache.com/pictures/3b171a0c-7347-4da7-b89a-38bf675be244.jpg"
+          />
+          <h3>
+            Dig into the details
+          </h3>
+          <p>
+            Check out the photos. Then, read guest reviews from past reservations to learn what it’s like in person.
+          </p>
+        </div>
+        <div
+          class="column"
+        >
+          <img
+            alt="steps"
+            class="howitworksrow3img"
+            src="https://a0.muscache.com/pictures/8442231d-bd79-4fba-b8e5-b78e49effe63.jpg"
+          />
+          <h3>
+            Book with peace of mind
+          </h3>
+          <p>
+            We keep your info safe and follow global security standards to process your payments.
+          </p>
+        </div>
+        <div
+          class="column"
+        >
+          <img
+            alt="steps"
+            class="howitworksrow3img"
+            src="https://a0.muscache.com/pictures/5b20c5f2-2bcb-4807-b75c-a05980f588d5.jpg"
+          />
+          <h3>
+            Arrive and enjoy!
+          </h3>
+          <p>
+            Your host is only a message away if you have any questions. They can also offer local tips and advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

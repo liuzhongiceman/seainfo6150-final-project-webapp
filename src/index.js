@@ -5,9 +5,8 @@ import App from "./App";
 
 
 ReactDOM.render(
+  // <Router basename={/github.io/.test(window.location) ? "/seainfo6150-final-project-webapp" : ""}>
   <Router>
-      {/* <Router basename={/github.io/.test(window.location) ? "/seainfo6150-final-project-webapp" : ""}> */}
-
     <App />
   </Router>,
   document.getElementById("root")

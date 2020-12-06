@@ -6,7 +6,7 @@ class Home extends React.Component {
     displayPosts = () => {
         const listItems = this.props.posts.map((post, index) => 
             <a className={styles.post} href={`/posts/${post.id}`} key={post.title + post.id}>
-                <img className={styles.postImg} src={post.url} />
+                <img className={styles.postImg} src={post.url} alt="post" />
                 <div className={styles.bottom}>
                     <div className={styles.title}>
                         <h2>{post.title}</h2>
@@ -31,32 +31,25 @@ class Home extends React.Component {
         switch(category) {
             case 'treehouse':
                 return 'https://news.airbnb.com/wp-content/uploads/sites/4/2018/08/1-mushroom-dome-min.jpg?fit=1024,683&resize=2048,1366';
-                break;
             case 'tinyhouse':
                 return 'https://a0.muscache.com/im/pictures/81a84488-3297-4a9f-b9d1-6dcb3ae9e726.jpg?im_w=1440';
-                break;
             case 'farmstay' :
                 return 'https://a0.muscache.com/im/pictures/467632ae-09d8-4334-8620-0f67cb4fd055.jpg?im_w=1440';
-                break;
             case 'boat' :
                 return 'https://a0.muscache.com/im/pictures/00d3733e-a272-48d5-8601-d53170bdce97.jpg?im_w=1200';
-                break;
             case 'camper' :
                 return 'https://a0.muscache.com/im/pictures/dcb763ed-e6ff-4680-880e-f21026a584dc.jpg?im_w=1440';
-                break;
             case 'tent' :
                 return 'https://a0.muscache.com/im/pictures/1e4a48e2-91cc-404f-a9d4-5d676b009c49.jpg?im_w=1200';
-                break;
-            case 'yurt' :
+            default :
                 return 'https://a0.muscache.com/im/pictures/4cb336e9-c8b2-4337-90ec-a75d6005e938.jpg?im_w=1440';
-                break;
         }
     }
     
     displayCategories = () => {
         const listItems = this.props.categories.map((category, index) => 
                 <a className={styles.category} href={`/categories/${category}`} key={index}>
-                    <img className={styles.categoryImg} src={this.getCategoryImage(category)} />
+                    <img className={styles.categoryImg} src={this.getCategoryImage(category)} alt="category"/>
                     <div className={styles.categoryBottom}>
                         <span className={styles.categoryTitle}>{category}</span>
                     </div>

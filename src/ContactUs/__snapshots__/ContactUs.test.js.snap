@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ContactUs component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="contactus"
+    >
+      <h1
+        class="contactustitle"
+      >
+        Contact Form
+      </h1>
+      <form>
+        <input
+          name="firstname"
+          placeholder="First Name"
+          type="text"
+          value=""
+        />
+        <input
+          name="lastname"
+          placeholder="Last Name"
+          type="text"
+          value=""
+        />
+        <input
+          name="email"
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+        <div
+          class="select"
+        >
+          <label
+            for="occupation"
+          >
+            Occupation:
+          </label>
+          <select
+            name="occupation"
+          >
+            <option
+              value="Professor"
+            >
+              Professor
+            </option>
+            <option
+              value="Student"
+            >
+              Student
+            </option>
+          </select>
+        </div>
+        <div
+          class="select"
+        >
+          <label
+            for="city"
+          >
+            Your favorite City:
+          </label>
+          <select
+            name="city"
+          >
+            <option
+              value="San Jose"
+            >
+              San Jose
+            </option>
+            <option
+              value="Santa Clara"
+            >
+              Santa Clara
+            </option>
+          </select>
+        </div>
+        <textarea
+          name="message"
+          placeholder="Message"
+          type="text"
+        />
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

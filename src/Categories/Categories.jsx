@@ -5,16 +5,14 @@ class Categories extends React.Component {
     
     displayPosts = () => {
         const posts = this.props.posts[this.props.category];
-        console.log('posts', posts);
         if (posts) {
           let listPosts = [];
           Object.keys(posts).map((key) => {
-            console.log('key', key);
             listPosts.push(posts[key]);
           });
           const listItems = listPosts.map((post, index) => 
           <a className={styles.post} href={`/posts/${post.id}`} key={post.title + post.id}>
-              <img className={styles.postImg} src={post.url} />
+              <img className={styles.postImg} src={post.url} alt="post"/>
               <div className={styles.bottom}>
                   <div className={styles.title}>
                       <h2>{post.title}</h2>
@@ -34,7 +32,7 @@ class Categories extends React.Component {
         return (listItems);
         }
       }
-            
+     
     render() {
         return (
             <div className={styles.root}>
